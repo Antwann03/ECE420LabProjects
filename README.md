@@ -3,7 +3,7 @@
 ## Student: Antonio Anzora Jr  
 
 
-This repository contains all labs for ECE 420. The purpose of this repository is to document my progress in digital logic design, FPGA programming, and verification using VHDL/Verilog.
+This repository contains all labs for ECE 420 and ECE 420 Projects. The purpose of this repository is to document my progress in digital logic design, FPGA programming, and verification using VHDL/Verilog.
 
 ## Course Description  
 
