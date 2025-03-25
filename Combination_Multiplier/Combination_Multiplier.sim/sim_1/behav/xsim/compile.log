@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/ECE420/Combination_Multiplier/Combination_Multiplier.srcs/sources_1/new/Signed_4x4_Multiplier.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Signed_4x4_Multiplier'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/ECE420/Combination_Multiplier/Combination_Multiplier.srcs/sim_1/new/Signed_4x4_Multiplier_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Signed_4x4_Multiplier_TB'

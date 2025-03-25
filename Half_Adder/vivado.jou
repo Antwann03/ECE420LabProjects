@@ -1,0 +1,48 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sat Feb  1 10:54:01 2025
+# Process ID: 20188
+# Current directory: C:/ECE420/Half_Adder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16392 C:\ECE420\Half_Adder\Half_Adder.xpr
+# Log file: C:/ECE420/Half_Adder/vivado.log
+# Journal file: C:/ECE420/Half_Adder\vivado.jou
+# Running On: DESKTOP-8R40T2G, OS: Windows, CPU Frequency: 2803 MHz, CPU Physical cores: 4, Host memory: 16889 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Owner/OneDrive/Desktop/CSUN - Computer Engineering Classes/ECE 420 - Digitial Systems Design with Programmable Logic/ECE420LabProjects/ZYNQ/ZYNQ.xpr}
+update_compile_order -fileset sources_1
+file mkdir C:/Users/Owner/OneDrive/Desktop/CSUN - Computer Engineering Classes/ECE 420 - Digitial Systems Design with Programmable Logic/ECE420LabProjects/ZYNQ/ZYNQ.srcs/sim_1/new
+file mkdir C:/Users/Owner/OneDrive/Desktop/CSUN - Computer Engineering Classes/ECE 420 - Digitial Systems Design with Programmable Logic/ECE420LabProjects/ZYNQ/ZYNQ.srcs/sim_1/new
+file mkdir C:/Users/Owner/OneDrive/Desktop/CSUN - Computer Engineering Classes/ECE 420 - Digitial Systems Design with Programmable Logic/ECE420LabProjects/ZYNQ/ZYNQ.srcs/sim_1/new
+file mkdir C:/Users/Owner/OneDrive/Desktop/CSUN - Computer Engineering Classes/ECE 420 - Digitial Systems Design with Programmable Logic/ECE420LabProjects/ZYNQ/ZYNQ.srcs/sim_1/new
+file mkdir C:/Users/Owner/OneDrive/Desktop/CSUN - Computer Engineering Classes/ECE 420 - Digitial Systems Design with Programmable Logic/ECE420LabProjects/ZYNQ/ZYNQ.srcs/sim_1/new
+file mkdir C:/Users/Owner/OneDrive/Desktop/CSUN - Computer Engineering Classes/ECE 420 - Digitial Systems Design with Programmable Logic/ECE420LabProjects/ZYNQ/ZYNQ.srcs/sim_1/new
+file mkdir C:/Users/Owner/OneDrive/Desktop/CSUN - Computer Engineering Classes/ECE 420 - Digitial Systems Design with Programmable Logic/ECE420LabProjects/ZYNQ/ZYNQ.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+file mkdir C:/Users/Owner/OneDrive/Desktop/CSUN - Computer Engineering Classes/ECE 420 - Digitial Systems Design with Programmable Logic/ECE420LabProjects/ZYNQ/ZYNQ.srcs/sim_1/new
+file mkdir {C:/Users/Owner/OneDrive/Desktop/CSUN - Computer Engineering Classes/ECE 420 - Digitial Systems Design with Programmable Logic/ECE420LabProjects/ZYNQ/ZYNQ.srcs/sim_1/new}
+close [ open {C:/Users/Owner/OneDrive/Desktop/CSUN - Computer Engineering Classes/ECE 420 - Digitial Systems Design with Programmable Logic/ECE420LabProjects/ZYNQ/ZYNQ.srcs/sim_1/new/half_adder_TB.vhd} w ]
+add_files -fileset sim_1 {{C:/Users/Owner/OneDrive/Desktop/CSUN - Computer Engineering Classes/ECE 420 - Digitial Systems Design with Programmable Logic/ECE420LabProjects/ZYNQ/ZYNQ.srcs/sim_1/new/half_adder_TB.vhd}}
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top half_adder [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top half_adder_TB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+set_property needs_refresh false [get_runs synth_1]
+set_property needs_refresh false [get_runs impl_1]
+set_property needs_refresh false [get_runs synth_1]
+set_property needs_refresh false [get_runs impl_1]
+launch_simulation

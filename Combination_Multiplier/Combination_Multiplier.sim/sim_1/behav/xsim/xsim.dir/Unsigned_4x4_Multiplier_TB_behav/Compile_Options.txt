@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "Unsigned_4x4_Multiplier_TB_behav" "xil_defaultlib.Unsigned_4x4_Multiplier_TB" -log "elaborate.log" 

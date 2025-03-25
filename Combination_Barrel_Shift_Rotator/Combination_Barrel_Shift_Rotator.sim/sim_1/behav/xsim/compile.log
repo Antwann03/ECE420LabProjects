@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/ECE420/Combination_Barrel_Shift_Rotator/Combination_Barrel_Shift_Rotator.srcs/sources_1/new/Rotating16Bits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Rotating16Bits'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/ECE420/Combination_Barrel_Shift_Rotator/Combination_Barrel_Shift_Rotator.srcs/sim_1/new/Rotating16Bits_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Rotating16Bits_TB'

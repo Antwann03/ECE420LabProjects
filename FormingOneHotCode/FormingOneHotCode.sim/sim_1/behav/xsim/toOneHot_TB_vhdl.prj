@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../FormingOneHotCode.srcs/sources_1/new/toOneHot.vhd" \
+"../../../../FormingOneHotCode.srcs/sim_1/new/toOneHot_TB.vhd" \
+
+# Do not sort compile order
+nosort

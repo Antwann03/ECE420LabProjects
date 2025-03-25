@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Extra_Credit.srcs/sources_1/new/Function_Formula.vhd" \
+"../../../../Extra_Credit.srcs/sim_1/new/Function_Formula_TB.vhd" \
+
+# Do not sort compile order
+nosort

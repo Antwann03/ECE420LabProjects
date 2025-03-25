@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Thu Oct 10 21:59:50 2024
+# Process ID: 16160
+# Current directory: C:/ECE420/Computer_Project1/Computer_Project1.srcs/utils_1/imports/synth_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16612 C:\ECE420\Computer_Project1\Computer_Project1.srcs\utils_1\imports\synth_1\Computer_Project1_TB.dcp
+# Log file: C:/ECE420/Computer_Project1/Computer_Project1.srcs/utils_1/imports/synth_1/vivado.log
+# Journal file: C:/ECE420/Computer_Project1/Computer_Project1.srcs/utils_1/imports/synth_1\vivado.jou
+# Running On        :DESKTOP-8R40T2G
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+# CPU Frequency     :2803 MHz
+# CPU Physical cores:4
+# CPU Logical cores :8
+# Host memory       :16889 MB
+# Swap memory       :5867 MB
+# Total Virtual     :22756 MB
+# Available Virtual :3674 MB
+#-----------------------------------------------------------
+start_gui
+open_checkpoint C:/ECE420/Computer_Project1/Computer_Project1.srcs/utils_1/imports/synth_1/Computer_Project1_TB.dcp

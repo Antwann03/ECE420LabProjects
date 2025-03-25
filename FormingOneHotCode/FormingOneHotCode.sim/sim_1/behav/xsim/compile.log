@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/ECE420/FormingOneHotCode/FormingOneHotCode.srcs/sources_1/new/toOneHot.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'toOneHot'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/ECE420/FormingOneHotCode/FormingOneHotCode.srcs/sim_1/new/toOneHot_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'toOneHot_TB'

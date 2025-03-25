@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Wed Oct 16 21:26:51 2024
+# Process ID: 23400
+# Current directory: C:/ECE420/4_Bit_Adder_Subtractor/4_Bit_Adder_Subtractor.runs/impl_1
+# Command line: vivado.exe -log full_adder_subtractor.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source full_adder_subtractor.tcl -notrace
+# Log file: C:/ECE420/4_Bit_Adder_Subtractor/4_Bit_Adder_Subtractor.runs/impl_1/full_adder_subtractor.vdi
+# Journal file: C:/ECE420/4_Bit_Adder_Subtractor/4_Bit_Adder_Subtractor.runs/impl_1\vivado.jou
+# Running On        :DESKTOP-8R40T2G
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+# CPU Frequency     :2803 MHz
+# CPU Physical cores:4
+# CPU Logical cores :8
+# Host memory       :16889 MB
+# Swap memory       :10985 MB
+# Total Virtual     :27874 MB
+# Available Virtual :5035 MB
+#-----------------------------------------------------------
+source full_adder_subtractor.tcl -notrace

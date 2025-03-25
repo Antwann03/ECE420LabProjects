@@ -1,0 +1,291 @@
+(DELAYFILE 
+(SDFVERSION "3.0" )
+(DESIGN "full_adder_subtractor")
+(DATE "Wed Oct 16 21:30:23 2024")
+(VENDOR "XILINX")
+(PROGRAM "Vivado")
+(VERSION "2024.1")
+(DIVIDER /)
+(TIMESCALE 1ps)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE A_IBUF\[0\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (725.9:801.6:801.6) (725.9:801.6:801.6))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE A_IBUF\[1\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (742.8:818.6:818.6) (742.8:818.6:818.6))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE A_IBUF\[2\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (738.2:814.0:814.0) (738.2:814.0:814.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE A_IBUF\[3\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (711.8:787.3:787.3) (711.8:787.3:787.3))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE B_IBUF\[0\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (710.0:785.5:785.5) (710.0:785.5:785.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE B_IBUF\[1\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (752.9:828.8:828.8) (752.9:828.8:828.8))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE B_IBUF\[2\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (752.2:828.1:828.1) (752.2:828.1:828.1))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE B_IBUF\[3\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (732.9:808.6:808.6) (732.9:808.6:808.6))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE Cin_IBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (736.2:812.0:812.0) (736.2:812.0:812.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE Cout_OBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2198.0:2440.7:2440.7) (2198.0:2440.7:2440.7))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT6")
+  (INSTANCE Cout_OBUF_inst_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I5 O (42.0:53.0:53.0) (42.0:53.0:53.0))
+      (IOPATH I4 O (42.0:53.0:53.0) (42.0:53.0:53.0))
+      (IOPATH I3 O (42.0:53.0:53.0) (42.0:53.0:53.0))
+      (IOPATH I2 O (42.0:53.0:53.0) (42.0:53.0:53.0))
+      (IOPATH I1 O (42.0:53.0:53.0) (42.0:53.0:53.0))
+      (IOPATH I0 O (42.0:53.0:53.0) (42.0:53.0:53.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE K_IBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (736.7:812.5:812.5) (736.7:812.5:812.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE Sum_OBUF\[0\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2183.6:2426.1:2426.1) (2183.6:2426.1:2426.1))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT4")
+  (INSTANCE Sum_OBUF\[0\]_inst_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I3 O (42.0:53.0:53.0) (42.0:53.0:53.0))
+      (IOPATH I2 O (42.0:53.0:53.0) (42.0:53.0:53.0))
+      (IOPATH I1 O (42.0:53.0:53.0) (42.0:53.0:53.0))
+      (IOPATH I0 O (42.0:53.0:53.0) (42.0:53.0:53.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE Sum_OBUF\[1\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2198.4:2441.1:2441.1) (2198.4:2441.1:2441.1))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT6")
+  (INSTANCE Sum_OBUF\[1\]_inst_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I5 O (42.0:53.0:53.0) (42.0:53.0:53.0))
+      (IOPATH I4 O (42.0:53.0:53.0) (42.0:53.0:53.0))
+      (IOPATH I3 O (42.0:53.0:53.0) (42.0:53.0:53.0))
+      (IOPATH I2 O (42.0:53.0:53.0) (42.0:53.0:53.0))
+      (IOPATH I1 O (42.0:53.0:53.0) (42.0:53.0:53.0))
+      (IOPATH I0 O (42.0:53.0:53.0) (42.0:53.0:53.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE Sum_OBUF\[2\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2204.0:2446.8:2446.8) (2204.0:2446.8:2446.8))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT4")
+  (INSTANCE Sum_OBUF\[2\]_inst_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I3 O (42.0:53.0:53.0) (42.0:53.0:53.0))
+      (IOPATH I2 O (42.0:53.0:53.0) (42.0:53.0:53.0))
+      (IOPATH I1 O (42.0:53.0:53.0) (42.0:53.0:53.0))
+      (IOPATH I0 O (42.0:53.0:53.0) (42.0:53.0:53.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE Sum_OBUF\[3\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2193.2:2435.9:2435.9) (2193.2:2435.9:2435.9))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT6")
+  (INSTANCE Sum_OBUF\[3\]_inst_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I5 O (42.0:53.0:53.0) (42.0:53.0:53.0))
+      (IOPATH I4 O (42.0:53.0:53.0) (42.0:53.0:53.0))
+      (IOPATH I3 O (42.0:53.0:53.0) (42.0:53.0:53.0))
+      (IOPATH I2 O (42.0:53.0:53.0) (42.0:53.0:53.0))
+      (IOPATH I1 O (42.0:53.0:53.0) (42.0:53.0:53.0))
+      (IOPATH I0 O (42.0:53.0:53.0) (42.0:53.0:53.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT6")
+  (INSTANCE Sum_OBUF\[3\]_inst_i_2)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I5 O (42.0:53.0:53.0) (42.0:53.0:53.0))
+      (IOPATH I4 O (42.0:53.0:53.0) (42.0:53.0:53.0))
+      (IOPATH I3 O (42.0:53.0:53.0) (42.0:53.0:53.0))
+      (IOPATH I2 O (42.0:53.0:53.0) (42.0:53.0:53.0))
+      (IOPATH I1 O (42.0:53.0:53.0) (42.0:53.0:53.0))
+      (IOPATH I0 O (42.0:53.0:53.0) (42.0:53.0:53.0))
+    )
+  )
+)
+(CELL 
+    (CELLTYPE "full_adder_subtractor")
+    (INSTANCE )
+    (DELAY
+      (ABSOLUTE
+      (INTERCONNECT A_IBUF\[0\]_inst/O Sum_OBUF\[0\]_inst_i_1/I2 (864.0:1062.0:1062.0) (864.0:1062.0:1062.0))
+      (INTERCONNECT A_IBUF\[0\]_inst/O Sum_OBUF\[1\]_inst_i_1/I2 (1223.1:1504.1:1504.1) (1223.1:1504.1:1504.1))
+      (INTERCONNECT A_IBUF\[0\]_inst/O Sum_OBUF\[3\]_inst_i_2/I4 (1024.2:1254.2:1254.2) (1024.2:1254.2:1254.2))
+      (INTERCONNECT A_IBUF\[1\]_inst/O Sum_OBUF\[3\]_inst_i_2/I0 (895.2:1106.2:1106.2) (895.2:1106.2:1106.2))
+      (INTERCONNECT A_IBUF\[1\]_inst/O Sum_OBUF\[1\]_inst_i_1/I1 (805.5:999.5:999.5) (805.5:999.5:999.5))
+      (INTERCONNECT A_IBUF\[2\]_inst/O Sum_OBUF\[2\]_inst_i_1/I2 (705.2:870.2:870.2) (705.2:870.2:870.2))
+      (INTERCONNECT A_IBUF\[2\]_inst/O Sum_OBUF\[3\]_inst_i_1/I2 (920.2:1137.2:1137.2) (920.2:1137.2:1137.2))
+      (INTERCONNECT A_IBUF\[2\]_inst/O Cout_OBUF_inst_i_1/I4 (713.4:878.4:878.4) (713.4:878.4:878.4))
+      (INTERCONNECT A_IBUF\[3\]_inst/O Cout_OBUF_inst_i_1/I0 (1012.2:1250.2:1250.2) (1012.2:1250.2:1250.2))
+      (INTERCONNECT A_IBUF\[3\]_inst/O Sum_OBUF\[3\]_inst_i_1/I1 (882.4:1094.4:1094.4) (882.4:1094.4:1094.4))
+      (INTERCONNECT B_IBUF\[0\]_inst/O Sum_OBUF\[0\]_inst_i_1/I0 (1066.3:1297.3:1297.3) (1066.3:1297.3:1297.3))
+      (INTERCONNECT B_IBUF\[0\]_inst/O Sum_OBUF\[3\]_inst_i_2/I2 (1058.9:1284.9:1284.9) (1058.9:1284.9:1284.9))
+      (INTERCONNECT B_IBUF\[0\]_inst/O Sum_OBUF\[1\]_inst_i_1/I4 (1150.9:1398.9:1398.9) (1150.9:1398.9:1398.9))
+      (INTERCONNECT B_IBUF\[1\]_inst/O Sum_OBUF\[1\]_inst_i_1/I0 (654.7:812.7:812.7) (654.7:812.7:812.7))
+      (INTERCONNECT B_IBUF\[1\]_inst/O Sum_OBUF\[3\]_inst_i_2/I5 (861.5:1072.5:1072.5) (861.5:1072.5:1072.5))
+      (INTERCONNECT B_IBUF\[2\]_inst/O Sum_OBUF\[2\]_inst_i_1/I0 (866.8:1074.8:1074.8) (866.8:1074.8:1074.8))
+      (INTERCONNECT B_IBUF\[2\]_inst/O Cout_OBUF_inst_i_1/I2 (758.9:938.9:938.9) (758.9:938.9:938.9))
+      (INTERCONNECT B_IBUF\[2\]_inst/O Sum_OBUF\[3\]_inst_i_1/I4 (907.5:1119.5:1119.5) (907.5:1119.5:1119.5))
+      (INTERCONNECT B_IBUF\[3\]_inst/O Sum_OBUF\[3\]_inst_i_1/I0 (730.6:906.6:906.6) (730.6:906.6:906.6))
+      (INTERCONNECT B_IBUF\[3\]_inst/O Cout_OBUF_inst_i_1/I5 (756.7:937.7:937.7) (756.7:937.7:937.7))
+      (INTERCONNECT Cin_IBUF_inst/O Sum_OBUF\[0\]_inst_i_1/I3 (836.5:1039.5:1039.5) (836.5:1039.5:1039.5))
+      (INTERCONNECT Cin_IBUF_inst/O Sum_OBUF\[1\]_inst_i_1/I3 (728.6:902.6:902.6) (728.6:902.6:902.6))
+      (INTERCONNECT Cin_IBUF_inst/O Sum_OBUF\[3\]_inst_i_2/I3 (594.7:734.7:734.7) (594.7:734.7:734.7))
+      (INTERCONNECT Cout_OBUF_inst_i_1/O Cout_OBUF_inst/I (1252.5:1400.5:1400.5) (1252.5:1400.5:1400.5))
+      (INTERCONNECT K_IBUF_inst/O Cout_OBUF_inst_i_1/I1 (696.3:853.3:853.3) (696.3:853.3:853.3))
+      (INTERCONNECT K_IBUF_inst/O Sum_OBUF\[0\]_inst_i_1/I1 (588.6:728.6:728.6) (588.6:728.6:728.6))
+      (INTERCONNECT K_IBUF_inst/O Sum_OBUF\[2\]_inst_i_1/I1 (692.2:849.2:849.2) (692.2:849.2:849.2))
+      (INTERCONNECT K_IBUF_inst/O Sum_OBUF\[3\]_inst_i_2/I1 (944.2:1164.2:1164.2) (944.2:1164.2:1164.2))
+      (INTERCONNECT K_IBUF_inst/O Sum_OBUF\[1\]_inst_i_1/I5 (694.3:850.3:850.3) (694.3:850.3:850.3))
+      (INTERCONNECT K_IBUF_inst/O Sum_OBUF\[3\]_inst_i_1/I5 (814.0:994.0:994.0) (814.0:994.0:994.0))
+      (INTERCONNECT Sum_OBUF\[0\]_inst_i_1/O Sum_OBUF\[0\]_inst/I (1126.4:1252.4:1252.4) (1126.4:1252.4:1252.4))
+      (INTERCONNECT Sum_OBUF\[1\]_inst_i_1/O Sum_OBUF\[1\]_inst/I (1253.1:1400.1:1400.1) (1253.1:1400.1:1400.1))
+      (INTERCONNECT Sum_OBUF\[2\]_inst_i_1/O Sum_OBUF\[2\]_inst/I (1254.0:1400.0:1400.0) (1254.0:1400.0:1400.0))
+      (INTERCONNECT Sum_OBUF\[3\]_inst_i_1/O Sum_OBUF\[3\]_inst/I (1243.3:1389.3:1389.3) (1243.3:1389.3:1389.3))
+      (INTERCONNECT Sum_OBUF\[3\]_inst_i_2/O Cout_OBUF_inst_i_1/I3 (464.0:565.0:565.0) (464.0:565.0:565.0))
+      (INTERCONNECT Sum_OBUF\[3\]_inst_i_2/O Sum_OBUF\[2\]_inst_i_1/I3 (350.0:423.0:423.0) (350.0:423.0:423.0))
+      (INTERCONNECT Sum_OBUF\[3\]_inst_i_2/O Sum_OBUF\[3\]_inst_i_1/I3 (179.5:213.5:213.5) (179.5:213.5:213.5))
+      )
+    )
+)
+)

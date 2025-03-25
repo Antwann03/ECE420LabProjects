@@ -1,0 +1,16 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+C:/ECE420/Combination_Multiplier/Combination_Multiplier.srcs/sim_1/new/FA_TB.vhd,1731275306,vhdl,,,,fa_tb,,,,,,,,
+C:/ECE420/Combination_Multiplier/Combination_Multiplier.srcs/sim_1/new/FS_TB.vhd,1731291914,vhdl,,,,fs_tb,,,,,,,,
+C:/ECE420/Combination_Multiplier/Combination_Multiplier.srcs/sim_1/new/HA_TB.vhd,1731272528,vhdl,,,,ha_tb,,,,,,,,
+C:/ECE420/Combination_Multiplier/Combination_Multiplier.srcs/sim_1/new/HS_TB.vhd,1731290334,vhdl,,,,hs_tb,,,,,,,,
+C:/ECE420/Combination_Multiplier/Combination_Multiplier.srcs/sim_1/new/Signed_4x4_Multiplier_TB.vhd,1731301310,vhdl,,,,signed_4x4_multiplier_tb,,,,,,,,
+C:/ECE420/Combination_Multiplier/Combination_Multiplier.srcs/sim_1/new/Unsigned_4x4_Multiplier_TB.vhd,1731286835,vhdl,,,,unsigned_4x4_multiplier_tb,,,,,,,,
+C:/ECE420/Combination_Multiplier/Combination_Multiplier.srcs/sources_1/new/FA.vhd,1731275306,vhdl,,,,fa,,,,,,,,
+C:/ECE420/Combination_Multiplier/Combination_Multiplier.srcs/sources_1/new/FS.vhd,1731291414,vhdl,,,,fs,,,,,,,,
+C:/ECE420/Combination_Multiplier/Combination_Multiplier.srcs/sources_1/new/HA.vhd,1731272918,vhdl,,,,ha,,,,,,,,
+C:/ECE420/Combination_Multiplier/Combination_Multiplier.srcs/sources_1/new/HS.vhd,1731290251,vhdl,,,,hs,,,,,,,,
+C:/ECE420/Combination_Multiplier/Combination_Multiplier.srcs/sources_1/new/Signed_4x4_Multiplier.vhd,1731301333,vhdl,,,,signed_4x4_multiplier,,,,,,,,
+C:/ECE420/Combination_Multiplier/Combination_Multiplier.srcs/sources_1/new/Unsigned_4x4_Multiplier.vhd,1731285782,vhdl,,,,unsigned_4x4_multiplier,,,,,,,,

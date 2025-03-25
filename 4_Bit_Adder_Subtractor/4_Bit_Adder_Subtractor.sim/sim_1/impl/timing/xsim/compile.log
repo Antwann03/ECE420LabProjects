@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/ECE420/4_Bit_Adder_Subtractor/4_Bit_Adder_Subtractor.sim/sim_1/impl/timing/xsim/full_adder_subtractor_TB_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder_subtractor
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/ECE420/4_Bit_Adder_Subtractor/4_Bit_Adder_Subtractor.srcs/sim_1/new/full_adder_subtractor_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'full_adder_subtractor_TB'

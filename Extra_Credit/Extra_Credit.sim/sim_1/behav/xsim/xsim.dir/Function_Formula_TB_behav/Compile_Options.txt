@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "Function_Formula_TB_behav" "xil_defaultlib.Function_Formula_TB" -log "elaborate.log" 
