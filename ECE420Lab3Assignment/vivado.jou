@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sat Mar  8 10:06:47 2025
+# Process ID: 13812
+# Current directory: C:/ECE420/ECE420Lab3Assignment
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23684 C:\ECE420\ECE420Lab3Assignment\ECE420Lab3Assignment.xpr
+# Log file: C:/ECE420/ECE420Lab3Assignment/vivado.log
+# Journal file: C:/ECE420/ECE420Lab3Assignment\vivado.jou
+# Running On: DESKTOP-8R40T2G, OS: Windows, CPU Frequency: 2803 MHz, CPU Physical cores: 4, Host memory: 16889 MB
+#-----------------------------------------------------------
+start_guioopen_project C:/ECE420/ECE420Lab3Assignment/ECE420Lab3Assignment.xpruupdate_compile_order -fileset sources_1
+synth_design -top FAdder -part xc7z010clg400-1 -lint 
+close_project
+open_project C:/ECE420/ECE420Lab4MainOldVersion/ECE420Lab4MainOldVersion.xpr
+update_compile_order -fileset sources_1

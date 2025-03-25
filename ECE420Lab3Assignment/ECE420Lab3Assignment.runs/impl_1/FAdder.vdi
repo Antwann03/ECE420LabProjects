@@ -1,0 +1,51 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sat Feb 15 09:51:10 2025
+# Process ID: 8260
+# Current directory: C:/ECE420/ECE420Lab3Assignment/ECE420Lab3Assignment.runs/impl_1
+# Command line: vivado.exe -log FAdder.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source FAdder.tcl -notrace
+# Log file: C:/ECE420/ECE420Lab3Assignment/ECE420Lab3Assignment.runs/impl_1/FAdder.vdi
+# Journal file: C:/ECE420/ECE420Lab3Assignment/ECE420Lab3Assignment.runs/impl_1\vivado.jou
+# Running On: DESKTOP-8R40T2G, OS: Windows, CPU Frequency: 2803 MHz, CPU Physical cores: 4, Host memory: 16889 MB
+#-----------------------------------------------------------
+source FAdder.tcl -notrace
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 473.477 ; gain = 181.641
+Command: link_design -top FAdder -part xc7z010clg400-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 874.051 ; gain = 0.000
+INFO: [Project 1-479] Netlist was created with Vivado 2023.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Read ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 965.258 ; gain = 0.000
+CRITICAL WARNING: [Project 1-560] Could not resolve non-primitive black box cell 'simple_xor' instantiated as 'HA1/xor_input'. 2 instances of this cell are unresolved black boxes. [C:/ECE420/ECE420Lab3Assignment/ECE420Lab3Assignment.srcs/sources_1/new/HAdder.vhd:56]
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 965.605 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+4 Infos, 0 Warnings, 1 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 993.477 ; gain = 520.000
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+ERROR: [DRC INBB-3] Black Box Instances: Cell 'HA1/xor_input' of type 'simple_xor' has undefined contents and is considered a black box.  The contents of this cell must be defined for opt_design to complete successfully.
+ERROR: [DRC INBB-3] Black Box Instances: Cell 'HA2/xor_input' of type 'simple_xor' has undefined contents and is considered a black box.  The contents of this cell must be defined for opt_design to complete successfully.
+INFO: [Project 1-461] DRC finished with 2 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+ERROR: [Vivado_Tcl 4-78] Error(s) found during DRC. Opt_design not run.
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.500 . Memory (MB): peak = 1010.164 ; gain = 16.688
+INFO: [Common 17-83] Releasing license: Implementation
+9 Infos, 0 Warnings, 1 Critical Warnings and 3 Errors encountered.
+opt_design failed
+ERROR: [Common 17-39] 'opt_design' failed due to earlier errors.
+
+INFO: [Common 17-206] Exiting Vivado at Sat Feb 15 09:51:24 2025...

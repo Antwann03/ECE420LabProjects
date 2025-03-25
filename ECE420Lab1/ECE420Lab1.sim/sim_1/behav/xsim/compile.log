@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/ECE420/ECE420Lab1/ECE420Lab1.srcs/sources_1/new/Counters.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Counters'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/ECE420/ECE420Lab1/ECE420Lab1.srcs/sim_1/new/Counters_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Counters_TB'

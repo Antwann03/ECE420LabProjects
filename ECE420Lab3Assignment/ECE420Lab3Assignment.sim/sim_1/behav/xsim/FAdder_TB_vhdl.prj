@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../ECE420Lab3Assignment.srcs/sources_1/new/FAdder.vhd" \
+"../../../../ECE420Lab3Assignment.srcs/sources_1/new/HAdder.vhd" \
+"../../../../ECE420Lab3Assignment.srcs/sources_1/new/simple_and.vhd" \
+"../../../../ECE420Lab3Assignment.srcs/sources_1/new/simple_xor.vhd" \
+"../../../../ECE420Lab3Assignment.srcs/sim_1/new/FAdder_TB.vhd" \
+
+# Do not sort compile order
+nosort
